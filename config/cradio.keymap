@@ -15,7 +15,7 @@
     #define MEDIA 3
     #define SETTINGS 4
 // -----------------
-
+&out OUT_BLE
 &mt {
    //  flavor = "tap-preferred";
    // tapping_term_ms = <200>;
