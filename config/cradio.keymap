@@ -48,7 +48,7 @@
 		&kp Q &kp W &kp E &kp R &kp T                                              &kp Y &kp U  &kp I     &kp O   &kp P 
 		&bhm LGUI A &bhm LALT S &bhm LCTRL D &bhm LSHIFT F &kp G           &bhm RSHIFT H &bhm RCTRL J &bhm RALT K &bhm RGUI L &kp SEMICOLON
 		&kp Z &kp X &kp C &kp V &kp B                                              &kp N &kp M  &kp COMMA &kp DOT &kp SLASH
-             &lt NAV TAB &lt NUM BACKSPACE                                         &lt NUM SPACE &lt MEDIA ENTER
+            &lt NUM BACKSPACE &lt NAV TAB                                         &lt MEDIA ENTER &lt NUM SPACE 
 		>;
 		};
 
@@ -65,7 +65,7 @@
         // Main modifiers and arrow keys
 		    nav_layer {
 		bindings = <
-		&kp ESC &trans &trans &trans &trans    	    &kp PG_UP  &kp HOME &kp UP &kp END &kp DEL
+		&kp ESC &trans &trans &trans &out OUT_BLE     	    &kp PG_UP  &kp HOME &kp UP &kp END &kp DEL
 		&kp CAPS &trans &trans &trans &trans        &kp PG_DN &kp LEFT  &kp DOWN  &kp RIGHT &trans
 		&trans  &trans &trans &trans &trans         &trans &trans &trans &trans &trans
 					          &trans &trans         &trans &trans 
