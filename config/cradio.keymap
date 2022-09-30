@@ -75,7 +75,7 @@
         // Function keys with modifiers
        		media_layer {
 		bindings = <
-		&trans  &trans &trans &trans &trans         &trans &trans &trans &trans &trans
+		&trans  &trans &trans &trans &trans         &out OUT_BLE &trans &trans &trans &trans
 		&trans  &trans &trans &trans &trans         &trans &kp K_PREV &kp K_PLAY_PAUSE &kp K_NEXT &trans
 		&trans  &trans &trans &trans &trans			&trans &kp K_VOL_DN &kp K_VOL_UP &trans &trans 
           				      &trans &out OUT_BLE         &trans &trans  
